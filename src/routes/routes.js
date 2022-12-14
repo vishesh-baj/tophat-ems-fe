@@ -1,4 +1,9 @@
-import { Dashboard, EmployeeDashboard } from "../pages";
+import {
+  Dashboard,
+  EmployeeDashboard,
+  LoginPage,
+  RegisterPage,
+} from "../pages";
 import { PATHS } from "./paths";
 
 const routes = [
@@ -15,10 +20,12 @@ const routes = [
   {
     path: PATHS.login,
     key: PATHS.login,
+    Element: <LoginPage />,
   },
   {
     path: PATHS.register,
     key: PATHS.register,
+    Element: <RegisterPage />,
   },
 ];
 
