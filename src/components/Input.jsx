@@ -9,6 +9,7 @@ const InputField = ({ placeholder, type, value, name, change }) => {
         name={name}
         placeholder={placeholder}
         onChange={change}
+        className="input input-primary"
       />
     </div>
   );
