@@ -1,8 +1,10 @@
 import React from "react";
+import { Table } from "../components";
 import { DashboardLayout } from "../layouts";
-
 const EmployeeDashboard = () => {
-  return <DashboardLayout>EmployeeDashboard</DashboardLayout>;
+  return <DashboardLayout>
+    <Table/>
+  </DashboardLayout>;
 };
 
 export default EmployeeDashboard;
