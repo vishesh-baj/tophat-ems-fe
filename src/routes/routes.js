@@ -1,20 +1,12 @@
-import { PATHS } from "./PATHS";
+import { Dashboard } from "../pages";
+import { PATHS } from "./paths";
 
-export const routes = [
-  {
-    path: PATHS.login,
-    key: PATHS.login,
-  },
-  {
-    path: PATHS.signup,
-    key: PATHS.signup,
-  },
-  {
-    path: PATHS.forgetPassword,
-    key: PATHS.forgetPassword,
-  },
+const routes = [
   {
     path: PATHS.dashboard,
     key: PATHS.dashboard,
+    Element: <Dashboard />,
   },
 ];
+
+export default routes;
