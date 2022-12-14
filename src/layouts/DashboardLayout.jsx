@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { PATHS } from "../routes/paths";
 
+// Dashboard layout
 const DashboardLayout = ({ children }) => {
   return (
     <div>
