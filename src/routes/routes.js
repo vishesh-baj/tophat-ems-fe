@@ -12,6 +12,14 @@ const routes = [
     key: PATHS.employeeDashboard,
     Element: <EmployeeDashboard />,
   },
+  {
+    path: PATHS.login,
+    key: PATHS.login,
+  },
+  {
+    path: PATHS.register,
+    key: PATHS.register,
+  },
 ];
 
 export default routes;
