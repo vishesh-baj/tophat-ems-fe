@@ -9,10 +9,10 @@ import AppContextProvider from "./context/AppContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <AppContextProvider>
-      <Provider store={store}>
+    <Provider store={store}>
+      <AppContextProvider>
         <App />
-      </Provider>
-    </AppContextProvider>
+      </AppContextProvider>
+    </Provider>
   </BrowserRouter>
 );
