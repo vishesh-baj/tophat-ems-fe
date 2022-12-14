@@ -5,7 +5,7 @@ import { PATHS } from "../routes/paths";
 // Dashboard layout
 const DashboardLayout = ({ children }) => {
   return (
-    <div>
+    <>
       <div className="drawer">
         <input
           onChange={(e) => console.log(e.target.checked)}
@@ -65,7 +65,7 @@ const DashboardLayout = ({ children }) => {
           </ul>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default DashboardLayout;
