@@ -1,6 +1,6 @@
 import React from "react";
 
 const App = () => {
-  return <></>;
+  return <div data-theme="wireframe">App</div>;
 };
 export default App;
